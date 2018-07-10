@@ -1,0 +1,119 @@
+[
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "dialogue",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_items": [
+            {
+                "id": "start",
+                "header_text": "Would you like a coffee or a tea?",
+                "body": "",
+                "_graphic": {
+                    "src": "course/en/images/waitress.jpg",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "Coffee please!",
+                    "option_link": "coffee"
+}, {
+                    "option_text": "Tea please!",
+                    "option_link": "tea"
+}]
+        },
+           {
+                "id": "coffee",
+                "header_text": "Would you like a coffee with milk?",
+                "body": "",
+                "_graphic": {
+                    "src": "course/en/images/waitress.jpg",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "Yes!",
+                    "option_link": "milk"
+}, {
+                    "option_text": "No milk!",
+                    "option_link": "nomilk"
+}]
+        },  
+            {
+                "id": "tea",
+                "header_text": "Do you want sugar to your tea?",
+                "body": "",
+                "_graphic": {
+                    "src": "course/en/images/waitress.jpg",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "Yes please!",
+                    "option_link": "sugar"
+}, {
+                    "option_text": "No thank you!",
+                    "option_link": "nosugar"
+}]
+        },
+            {
+                "id": "milk",
+                "header_text": "Coffee with milk",
+                "body": "",
+                "_graphic": {
+                    "src": "course/en/images/coffemilk.jpeg",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "Return",
+                    "option_link": "start"
+}]
+        },
+            {
+                "id": "nomilk",
+                "header_text": "Coffee without milk",
+                "body": "",
+                "_graphic": {
+                    "src": "course/en/images/coffeblack.JPG",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "Return",
+                    "option_link": "start"
+}]
+        },
+            {
+                "id": "sugar",
+                "header_text": "Tea with sugar",
+                "body": "",
+                "_graphic": {
+                    "src": "course/en/images/teasugar.jpg",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "Return",
+                    "option_link": "start"
+}]
+        },
+            {
+                "id": "nosugar",
+                "header_text": "Tea without sugar",
+                "body": "",
+                "_graphic": {
+                    "src": "course/en/images/tea.jpg",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "Return",
+                    "option_link": "start"
+}]
+        }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	}
+]

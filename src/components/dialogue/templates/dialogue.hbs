@@ -1,0 +1,31 @@
+<div class="component-inner dialogue-inner">
+    {{> component this}}
+    <div class="component-widget dialogue-widget">
+        <div class="dialogue-container">
+            {{#each _items}}
+            <div class="current-dialogue item-{{@index}} {{{id}}}" dialogueID="{{{id}}}">
+                <div class="dialogue-content-body">
+                    <div class="dialogue-content-body-inner">
+                       {{#if _graphic.src}}
+                       <div class="dialogue-item-graphic">
+                        <img src="{{{_graphic.src}}}" alt="{{{_graphic.alt}}}">
+                        </div>
+                        {{/if}}
+                        {{#if body}}
+                        {{{body}}}
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="dialogue-content-title-inner" role="heading">
+                    {{{header_text}}}
+                </div>
+                {{#each options}}
+                <div>
+                    <button optionlink="{{{option_link}}}" class="optionbutton">{{{option_text}}}</button>
+                </div>
+                {{/each}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
