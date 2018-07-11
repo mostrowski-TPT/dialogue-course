@@ -1,0 +1,19 @@
+{{! make the _globals object in course.json available to this template}}
+{{import_globals}}
+{{#if bgvideo}}
+	<video preload="metadata" autoplay muted loop class="page-inner-video">
+  <source src="{{bgvideo.src}}" type="video/mp4">
+</video>
+{{/if}}
+<div class="page-inner article-container">
+	{{{a11y_aria_label _globals._accessibility._ariaLabels.page}}}
+	{{#if bgvideo}}
+	<video autoplay muted loop class="page-inner-video">
+  <source src="{{bgvideo.src}}" type="video/mp4">
+</video>
+	{{/if}}
+	
+	
+
+
+</div>

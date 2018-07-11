@@ -1,0 +1,46 @@
+.dialogue-inner.component-inner {
+    background-color: fade(@component-background-color, 50%);
+    .dialogue-item-graphic{
+        text-align: center;
+       img {
+        max-height: 100vh;
+        max-width: 100%;
+        margin: auto;
+    }  
+        .dialogue-content-title-inner{
+            background-color: @component-background-color;
+        }
+    }
+   .dialogue-item-video{
+        text-align: center;
+       video {
+        max-height: 100vh;
+        max-width: 100%;
+        margin: auto;
+    }      
+    }
+
+    * {
+        font-family: sans-serif;
+    }
+
+    .optionbutton {
+        width: 100%;
+        height: 4em;
+        margin: 5px;
+    }
+
+    #container {
+        max-width: 100vh;
+        background-color: gainsboro;
+        padding: 20px;
+    }
+
+    .dialogue-content-title-inner {
+        color: white;
+        text-align: center;
+        padding: 1em;
+        font-size: 3em;
+        line-height: normal;
+    }
+}

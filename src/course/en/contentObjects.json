@@ -13,6 +13,9 @@
 			"src": "course/en/images/menu_thumb.jpg",
 			"alt": "Placeholder graphic."
 		},
+        "bgvideo": {
+          "src": "course/en/images/Shopping.mp4"  
+        },
 		"linkText": "View",
 		"duration": "2 mins",
 		"_pageLevelProgress": {

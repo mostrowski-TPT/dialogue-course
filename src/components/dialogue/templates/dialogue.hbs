@@ -13,7 +13,7 @@
                         {{/if}}
                         {{#if _video.src}}
                         <div class="dialogue-item-video">
-                        <video {{#if _video.controls}} controls {{/if}} {{#if _video.autoplay}} autoplay {{/if}} {{#if _video.loop}} loop {{/if}} src="{{{_video.src}}}" alt="{{{_video.alt}}}">
+                        <video preload="none" {{#if _video.controls}} controls {{/if}} {{#if _video.autoplay}} autoplay {{/if}} {{#if _video.loop}} loop {{/if}} src="{{{_video.src}}}" alt="{{{_video.alt}}}">
                         </div>
                         {{/if}}
                         {{#if body}}
