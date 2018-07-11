@@ -27,12 +27,12 @@
                     "option_link": "tea"
 }]
         },
-           {
+            {
                 "id": "coffee",
                 "header_text": "Would you like a coffee with milk?",
                 "body": "",
                 "_graphic": {
-                    "src": "course/en/images/waitress.jpg",
+                    "src": "course/en/images/coffee-question-mark.jpg",
                     "alt": ""
                 },
                 "options": [{
@@ -42,13 +42,13 @@
                     "option_text": "No milk!",
                     "option_link": "nomilk"
 }]
-        },  
+        },
             {
                 "id": "tea",
                 "header_text": "Do you want sugar to your tea?",
                 "body": "",
                 "_graphic": {
-                    "src": "course/en/images/waitress.jpg",
+                    "src": "course/en/images/hot_tea_question.jpg",
                     "alt": ""
                 },
                 "options": [{
@@ -64,11 +64,18 @@
                 "header_text": "Coffee with milk",
                 "body": "",
                 "_graphic": {
-                    "src": "course/en/images/coffemilk.jpeg",
+                    "src": "",
+                    "alt": ""
+                },
+                "_video": {
+                    "src": "course/en/images/cofeemilk.mp4",
+                    "autoplay": "true",
+                    "loop": "true",
+                    "controls": "",
                     "alt": ""
                 },
                 "options": [{
-                    "option_text": "Return",
+                    "option_text": "Order again",
                     "option_link": "start"
 }]
         },
@@ -77,11 +84,18 @@
                 "header_text": "Coffee without milk",
                 "body": "",
                 "_graphic": {
-                    "src": "course/en/images/coffeblack.JPG",
+                    "src": "",
+                    "alt": ""
+                },
+                "_video": {
+                    "src": "course/en/images/Coffee.mp4",
+                    "autoplay": "true",
+                    "loop": "true",
+                    "controls": "",
                     "alt": ""
                 },
                 "options": [{
-                    "option_text": "Return",
+                    "option_text": "Order again",
                     "option_link": "start"
 }]
         },
@@ -90,11 +104,18 @@
                 "header_text": "Tea with sugar",
                 "body": "",
                 "_graphic": {
-                    "src": "course/en/images/teasugar.jpg",
+                    "src": "",
+                    "alt": ""
+                },
+                "_video": {
+                    "src": "course/en/images/Tee.mp4",
+                    "autoplay": "true",
+                    "loop": "true",
+                    "controls": "",
                     "alt": ""
                 },
                 "options": [{
-                    "option_text": "Return",
+                    "option_text": "Order again",
                     "option_link": "start"
 }]
         },
@@ -103,11 +124,18 @@
                 "header_text": "Tea without sugar",
                 "body": "",
                 "_graphic": {
-                    "src": "course/en/images/tea.jpg",
+                    "src": "",
+                    "alt": ""
+                },
+                 "_video": {
+                    "src": "course/en/images/twocupsonetea.mp4",
+                    "autoplay": "true",
+                    "loop": "true",
+                    "controls": "",
                     "alt": ""
                 },
                 "options": [{
-                    "option_text": "Return",
+                    "option_text": "Order again",
                     "option_link": "start"
 }]
         }
