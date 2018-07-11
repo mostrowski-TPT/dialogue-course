@@ -62,7 +62,7 @@
             {
                 "id": "milk",
                 "header_text": "Coffee with milk",
-                "body": "<div class='pagelink'><p>Coffee berries and their seeds undergo several processes before they become the familiar roasted coffee. Berries have been traditionally selectively picked by hand; a labor-intensive method, it involves the selection of only the berries at the peak of ripeness.</p><a href='#co-10' class='pagelink'> Read more about coffee </a></div>",
+                "body": "<div class='pagelink'><p>Coffee berries and their seeds undergo several processes before they become the familiar roasted coffee. Berries have been traditionally selectively picked by hand; a labor-intensive method, it involves the selection of only the berries at the peak of ripeness.</p><a href='#co-10' class='pagelink'> Click to read more about coffee </a></div>",
                 "_graphic": {
                     "src": "",
                     "alt": ""
@@ -82,7 +82,7 @@
             {
                 "id": "nomilk",
                 "header_text": "Coffee without milk",
-                "body": "<div class='pagelink'><a href='#co-10' class='pagelink'> Read more about coffee </a></div>",
+                "body": "<div class='pagelink'><p>Coffee berries and their seeds undergo several processes before they become the familiar roasted coffee. Berries have been traditionally selectively picked by hand; a labor-intensive method, it involves the selection of only the berries at the peak of ripeness.</p><a href='#co-10' class='pagelink'> Click to read more about coffee </a></div>",
                 "_graphic": {
                     "src": "",
                     "alt": ""
@@ -167,5 +167,17 @@
     "displayTitle":"Legendary origins",
     "body":"According to legend, ancestors of today's Oromo people in a region of Kaffa in Ethiopia were believed to have been the first to recognize the energizing effect of the coffee plant, though no direct evidence has been found indicating where in Africa coffee grew or who among the native populations might have used it as a stimulant or even known about it, earlier than the 17th century. The story of Kaldi, the 9th-century Ethiopian goatherd who discovered coffee when he noticed how excited his goats became after eating the beans from a coffee plant, did not appear in writing until 1671 and is probably apocryphal.",
     "instruction":""
-}    
+},
+    {
+    "_id":"c-20",
+    "_parentId":"b-15",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"returnclass",
+    "_layout":"left",
+    "title":"Our first look at a component",
+    "displayTitle":"",
+    "body":"<a href='#co-05'> Click to return </a>",
+    "instruction":""
+}   
 ]
