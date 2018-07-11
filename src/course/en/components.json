@@ -16,7 +16,7 @@
                 "header_text": "Would you like a coffee or a tea?",
                 "body": "",
                 "_graphic": {
-                    "src": "course/en/images/waitress.jpg",
+                    "src": "",
                     "alt": ""
                 },
                 "options": [{
@@ -62,7 +62,7 @@
             {
                 "id": "milk",
                 "header_text": "Coffee with milk",
-                "body": "",
+                "body": "<div class='pagelink'><p>Coffee berries and their seeds undergo several processes before they become the familiar roasted coffee. Berries have been traditionally selectively picked by hand; a labor-intensive method, it involves the selection of only the berries at the peak of ripeness.</p><a href='#co-10' class='pagelink'> Read more about coffee </a></div>",
                 "_graphic": {
                     "src": "",
                     "alt": ""
@@ -82,7 +82,7 @@
             {
                 "id": "nomilk",
                 "header_text": "Coffee without milk",
-                "body": "",
+                "body": "<div class='pagelink'><a href='#co-10' class='pagelink'> Read more about coffee </a></div>",
                 "_graphic": {
                     "src": "",
                     "alt": ""
@@ -143,5 +143,29 @@
         "_pageLevelProgress": {
             "_isEnabled": true
         }
-	}
+	},
+    {
+    "_id":"c-10",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"",
+    "_layout":"left",
+    "title":"Our first look at a component",
+    "displayTitle":"Did you know?",
+    "body":"The earliest credible evidence of coffee-drinking appears in Yemen in southern Arabia in the middle of the 15th century in Sufi shrines. It was here in Arabia that coffee seeds were first roasted and brewed in a similar way to how it is now prepared. Coffee seeds were first exported from East Africa to Yemen, as the Coffea arabica plant is thought to have been indigenous to the former. Yemeni traders took coffee back to their homeland and began to cultivate the seed. By the 16th century, it had reached Persia, Turkey, and North Africa. From there, it spread to Europe and the rest of the world.",
+    "instruction":""
+},
+ {
+    "_id":"c-15",
+    "_parentId":"b-15",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"",
+    "_layout":"right",
+    "title":"Our first look at a component",
+    "displayTitle":"Legendary origins",
+    "body":"According to legend, ancestors of today's Oromo people in a region of Kaffa in Ethiopia were believed to have been the first to recognize the energizing effect of the coffee plant, though no direct evidence has been found indicating where in Africa coffee grew or who among the native populations might have used it as a stimulant or even known about it, earlier than the 17th century. The story of Kaldi, the 9th-century Ethiopian goatherd who discovered coffee when he noticed how excited his goats became after eating the beans from a coffee plant, did not appear in writing until 1671 and is probably apocryphal.",
+    "instruction":""
+}    
 ]

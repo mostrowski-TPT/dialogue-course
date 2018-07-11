@@ -21,5 +21,28 @@
 		"_pageLevelProgress": {
 			"_isEnabled": true
 		}
+	},
+   {
+		"_id": "co-10",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Page",
+		"displayTitle": "Page",
+		"body": "Page content below",
+		"pageBody": "",
+		"instruction": "",
+		"_graphic": {
+			"src": "course/en/images/menu_thumb.jpg",
+			"alt": "Placeholder graphic."
+		},
+        "bgvideo": {
+          "src": "course/en/images/Cafebg.mp4"  
+        },
+		"linkText": "View",
+		"duration": "2 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
 	}
 ]
