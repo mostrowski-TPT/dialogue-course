@@ -217,8 +217,8 @@
     "body": "The term 'milk' comes from 'Old English meoluc (West Saxon), milc (Anglian), from Proto-Germanic *meluks 'milk' (source also of Old Norse mjolk, Old Frisian melok, Old Saxon miluk, Dutch melk, Old High German miluh, German Milch, Gothic miluks)'. <br><a class='callout-trigger' data-callout='disclaimer' href='javascript:void(0);'>Click here to view milk user guide</a>",
     "_callouts": {
          "disclaimer" : {
-            "title" : "Disclaimer",
-            "body" : "<h1> Please see demonstretion below on how to pour a glass of milk</h1><br><a href='#co-10'>CLICK TO READ ABOUT COFFEE</a>"
+            "title" : "Milk user guide",
+            "body" : "<h1> Please see demonstretion below on how to pour a glass of milk</h1><br><a href='#co-10'>CLICK TO READ ABOUT COFFEE</a><div><video src='course/en/images/GlassofMilkFootage.mp4' controls ></div>"
         }
     }
 }

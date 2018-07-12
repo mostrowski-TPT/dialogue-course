@@ -139,7 +139,7 @@ define([
                 });
             } else {
                 this.$('.notify-popup').css({
-                    'margin-top': -(notifyHeight/2)
+                    'margin-top': -(notifyHeight/1)
                 });
             }
         },
