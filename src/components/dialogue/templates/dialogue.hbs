@@ -16,14 +16,15 @@
                         <video preload="none" {{#if _video.controls}} controls {{/if}} {{#if _video.autoplay}} autoplay {{/if}} {{#if _video.loop}} loop {{/if}} src="{{{_video.src}}}" alt="{{{_video.alt}}}">
                         </div>
                         {{/if}}
+                         <div class="dialogue-content-title-inner" role="heading">
+                    {{{header_text}}}
+                </div>
                         {{#if body}}
                         {{{body}}}
                         {{/if}}
                     </div>
                 </div>
-                <div class="dialogue-content-title-inner" role="heading">
-                    {{{header_text}}}
-                </div>
+               
                 {{#each options}}
                 <div>
                     <button optionlink="{{{option_link}}}" class="optionbutton">{{{option_text}}}</button>

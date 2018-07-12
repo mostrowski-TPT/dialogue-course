@@ -1,23 +1,32 @@
-.text-inner.component-inner{
+.text-inner.component-inner {
     border-radius: 0px 0px 30px 0px;
-    
 }
-.returnclass{
-    .text-inner.component-inner{
+
+.returnclass {
+    .text-inner.component-inner {
         padding: 0px;
-          background-color:transparent;
-        .text-body.component-body{
+        background-color: transparent;
+        .text-body.component-body {
+            background-color: transparent;
             border-radius: 0px 0px 30px 0px;
-            background-color: @button-color;
             text-align: center;
             padding: 2em;
-            a{
+            a {
+                background-color: @button-color;
                 font-size: 2em;
                 text-align: center;
                 color: white;
-        text-decoration: none;
-    } 
+                text-decoration: none;
+                transition: 1s;
+                padding: 1em;
+                &:hover {
+                    background-color: white;
+                    color: black;
+                    width: 100%;
+                    border-radius: 30px;
+                }
+            }
         }
-      
+
     }
-    }
+}

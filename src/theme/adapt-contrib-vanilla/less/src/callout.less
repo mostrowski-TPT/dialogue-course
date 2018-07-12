@@ -1,0 +1,41 @@
+.callout-component {
+	
+   span.callout-trigger,
+   p.callout-trigger,
+   a.callout-trigger
+   {
+      color:@primary-color;
+      text-decoration: none !important;
+       font-weight: 600;
+       transition: 1s;
+       &:hover{
+           font-size: 1.5em;
+       }
+   }
+}
+
+
+.no-touch {
+	.callout-component {
+      span.callout-trigger,
+      p.callout-trigger,
+      a.callout-trigger {
+         &:hover {
+           color: @item-hover-color;
+         }
+      }
+	}
+}
+
+
+.notify-popup-body-inner {
+    top: 8% !important;
+    
+    video {
+        max-height: 100%;
+        max-width: 100%;
+        margin: auto;
+    }    
+}
+
+

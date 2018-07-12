@@ -5,6 +5,9 @@
   <source src="{{bgvideo.src}}" type="video/mp4">
 </video>
 {{/if}}
+{{#if bgimage}}
+<img class="page-inner-bgimage" src="{{bgimage.src}}">
+{{/if}}
 <div class="page-inner article-container">
 	{{{a11y_aria_label _globals._accessibility._ariaLabels.page}}}
 	{{#if bgvideo}}
