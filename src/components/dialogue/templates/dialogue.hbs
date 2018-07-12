@@ -24,12 +24,13 @@
                         {{/if}}
                     </div>
                 </div>
-               
+               {{#if options}}
                 {{#each options}}
                 <div>
                     <button optionlink="{{{option_link}}}" class="optionbutton">{{{option_text}}}</button>
                 </div>
                 {{/each}}
+                {{/if}}
             </div>
             {{/each}}
         </div>
