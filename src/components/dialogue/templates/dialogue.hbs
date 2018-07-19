@@ -27,7 +27,7 @@
                {{#if options}}
                 {{#each options}}
                 <div>
-                    <button optionlink="{{{option_link}}}" class="optionbutton">{{{option_text}}}</button>
+                    <button optionlink="{{{option_link}}}" class="optionbutton" {{#if finisher}}finisher="true"{{/if}}>{{{option_text}}}</button>
                 </div>
                 {{/each}}
                 {{/if}}

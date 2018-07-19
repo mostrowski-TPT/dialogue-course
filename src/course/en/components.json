@@ -10,6 +10,9 @@
         "displayTitle": "",
         "body": "",
         "instruction": "",
+          "_unlockingItems": [
+            {"_unlockId": "hiddencomponent"}
+        ],
         "_items": [
             {
                 "id": "start",
@@ -53,7 +56,8 @@
                 },
                 "options": [{
                     "option_text": "Yes please!",
-                    "option_link": "sugar"
+                    "option_link": "sugar",
+                    "finisher": true
 }, {
                     "option_text": "No thank you!",
                     "option_link": "nosugar"
@@ -102,7 +106,7 @@
             {
                 "id": "sugar",
                 "header_text": "Tea with sugar",
-                "body": "<div class='pagelink'><p>This path is dead end.<p></div>",
+                "body": "<div class='pagelink'><p>This path unlocks new component below<p></div>",
                 "_graphic": {
                     "src": "",
                     "alt": ""
@@ -113,8 +117,11 @@
                     "loop": "true",
                     "controls": "",
                     "alt": ""
-                }
-                
+                },
+                "options": [{
+                    "option_text": "Order again",
+                    "option_link": "start"
+}]          
         },
             {
                 "id": "nosugar",
@@ -141,6 +148,19 @@
             "_isEnabled": true
         }
 	},
+	 {
+        "_id": "hiddencomponent",
+        "_parentId": "hiddenblock",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Our first look at a component",
+        "displayTitle": "This component is unlocked",
+        "body": "Thiscomponent is unlocked",
+         "_isHidden": true,
+        "instruction": ""
+},
     {
         "_id": "c-10",
         "_parentId": "b-10",

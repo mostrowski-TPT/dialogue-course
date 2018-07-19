@@ -28,7 +28,6 @@ define([
 
             // Use this to set the model status to complete.
             // This can be used with inview or when the model is set to complete/the question has been answered.
-            this.setCompletionStatus();
         },
 
         events: {
@@ -37,9 +36,16 @@ define([
 
         onOptionbuttonClicked: function (event) {
             var linkword = $(event.currentTarget).attr("optionlink");
+            var finisher = $(event.currentTarget).attr("finisher");
+            console.log("zmienna finiszer "+finisher);
+            console.log("czy jest true " + (finisher == "true"));
             //console.log(linkword);
             this.showContentItemAtIndex(linkword);
 
+            (finisher == "true")? this.setCompletionStatus() : console.log("niedizlaaj");
+               //console.log("DZIALAJ");
+                //this.setCompletionStatus();
+            
         },
 
         showContentItemAtIndex: function (linkword, skipFocus) {
@@ -52,9 +58,7 @@ define([
 
             console.log($contentItem);
             $contentItem.fadeIn();
-
         }
-
     }, {
         template: "dialogue"
     });
