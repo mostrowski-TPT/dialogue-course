@@ -17,7 +17,9 @@ define([
             var $contentItems = this.$('.current-dialogue');
             $contentItems.hide();
 
-            //fades in first item from hbs template eq jquery function getting by DOM index     
+            
+            
+            //fades in first item from hbs template eq jquery function getting by DOM index 
             var $contentItem = $contentItems.eq(0);
             $contentItem.fadeIn();
 

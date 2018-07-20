@@ -10,8 +10,10 @@
         "displayTitle": "",
         "body": "",
         "instruction": "",
-          "_unlockingItems": [
-            {"_unlockId": "hiddencomponent"}
+        "_unlockingItems": [
+            {
+                "_unlockId": "hiddencomponent"
+            }
         ],
         "_items": [
             {
@@ -121,7 +123,7 @@
                 "options": [{
                     "option_text": "Order again",
                     "option_link": "start"
-}]          
+}]
         },
             {
                 "id": "nosugar",
@@ -148,19 +150,90 @@
             "_isEnabled": true
         }
 	},
-	 {
+    
+    {
         "_id": "hiddencomponent",
         "_parentId": "hiddenblock",
         "_type": "component",
-        "_component": "text",
+        "_component": "dialogue",
         "_classes": "",
-        "_layout": "left",
-        "title": "Our first look at a component",
-        "displayTitle": "This component is unlocked",
-        "body": "Thiscomponent is unlocked",
-         "_isHidden": true,
-        "instruction": ""
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_isHidden": true,
+        "_items": [
+            {
+                "id": "starttwo",
+                "header_text": "",
+                "body": "<div class='pagelinka'><p>Greetings from Barcelona E-Learning Team!<br>You have unlocked the hidden component!</p></div>",
+                "_graphic": {
+                    "src": "",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "What does this course serve for?",
+                    "option_link": "reason"
+}, {
+                    "option_text": "How was it made?",
+                    "option_link": "How"
+}]
+        },
+            {
+                "id": "reason",
+                "header_text": "",
+                "body": "<div class='pagelinka'><p>This course was made to test and present routing and unlocking posiibiloities of Adapt</p></div>",
+                "_graphic": {
+                    "src": "",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "How was it made?",
+                    "option_link": "How"
+}]
+        },
+            {
+                "id": "How",
+                "header_text": "",
+                "body": "<div class='pagelinka'><p>This course was made with use of a adapt-dialogue component and adapt-unlocker plugin that were developed internally specially for this purpose</p></div>",
+                "_graphic": {
+                    "src": "",
+                    "alt": ""
+                },
+                "options": [
+                    {
+                    "option_text": "What does this course serve for?",
+                    "option_link": "reason"
 },
+                    {
+                        "option_text": "How these functionalities can expand this tool?",
+                        "option_link": "usage"
+},
+                    {
+                        "option_text": "How was it made?",
+                        "option_link": "How"
+}]
+        },
+            {
+                "id": "usage",
+                "header_text": "",
+                "body": "<div class='pagelinka'><p>Unlocker plugin enables quick developer solution for locking and unlocking any part of the course DOM structure on any event and condition. It can be used for unlocking menu items by making them appear on finished conditions or for conditional elements like pages or components<br> Dialogue plugin can display any HTML5 content on any dialogue option triggered on it by clicking, and thus enables creating comlplex interactions with unlimited amount of different routes.</p></div>",
+                "_graphic": {
+                    "src": "",
+                    "alt": ""
+                },
+                "options": [{
+                    "option_text": "What does this course serve for?",
+                    "option_link": "reason"
+}, {
+                    "option_text": "How was it made?",
+                        "option_link": "How"
+}]
+        }
+
+]
+    },
     {
         "_id": "c-10",
         "_parentId": "b-10",
@@ -222,22 +295,21 @@
         "instruction": ""
 },
     {
-    "_id":"c-35",
-    "_parentId":"b-25",
-    "_type":"component",
-    "_component":"callout",
-    "_classes":"",
-    "_layout":"right",
-    "_direction":"right",        
-    "title": "",
-    "displayTitle": "",
-    "body": "The term 'milk' comes from 'Old English meoluc (West Saxon), milc (Anglian), from Proto-Germanic *meluks 'milk' (source also of Old Norse mjolk, Old Frisian melok, Old Saxon miluk, Dutch melk, Old High German miluh, German Milch, Gothic miluks)'. <br><a class='callout-trigger' data-callout='disclaimer' href='javascript:void(0);'>Click here to view milk user guide</a>",
-    "_callouts": {
-         "disclaimer" : {
-            "title" : "Milk user guide",
-            "body" : "<h1> Please see demonstretion below on how to pour a glass of milk</h1><br><a href='#co-10'>CLICK TO READ ABOUT COFFEE</a><div><video src='course/en/images/GlassofMilkFootage.mp4' controls ></div>"
+        "_id": "c-35",
+        "_parentId": "b-25",
+        "_type": "component",
+        "_component": "callout",
+        "_classes": "",
+        "_layout": "right",
+        "_direction": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "The term 'milk' comes from 'Old English meoluc (West Saxon), milc (Anglian), from Proto-Germanic *meluks 'milk' (source also of Old Norse mjolk, Old Frisian melok, Old Saxon miluk, Dutch melk, Old High German miluh, German Milch, Gothic miluks)'. <br><a class='callout-trigger' data-callout='disclaimer' href='javascript:void(0);'>Click here to view milk user guide</a>",
+        "_callouts": {
+            "disclaimer": {
+                "title": "Milk user guide",
+                "body": "<h1> Please see demonstretion below on how to pour a glass of milk</h1><br><a href='#co-10'>CLICK TO READ ABOUT COFFEE</a><div><video src='course/en/images/GlassofMilkFootage.mp4' controls ></div>"
+            }
         }
-    }
-} 
+}
 ]
-

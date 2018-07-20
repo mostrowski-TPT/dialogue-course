@@ -116,6 +116,18 @@
     "displayTitle": "Adapt testing enivronment",
     "description": "A sample course for testing purposes",
     "body": "",
+    "_start": {
+        "_isEnabled": true,
+        "_startIds": [
+            {
+                "_id": "co-05",
+                "_skipIfComplete": false,
+                "_className": ""
+            }
+        ],
+        "_force": true,
+        "_isMenuDisabled": true
+    },
     "_buttons": {
         "_submit": {
             "buttonText": "Submit",

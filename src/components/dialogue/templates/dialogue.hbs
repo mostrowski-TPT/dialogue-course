@@ -6,19 +6,19 @@
             <div class="current-dialogue item-{{@index}} {{{id}}}" dialogueID="{{{id}}}">
                 <div class="dialogue-content-body">
                     <div class="dialogue-content-body-inner">
-                       {{#if _graphic.src}}
-                       <div class="dialogue-item-graphic">
-                        <img src="{{{_graphic.src}}}" alt="{{{_graphic.alt}}}">
+                        {{#if _graphic.src}}
+                        <div class="dialogue-item-graphic">
+                            <img src="{{{_graphic.src}}}" alt="{{{_graphic.alt}}}">
                         </div>
-                        {{/if}}
-                        {{#if _video.src}}
+                        {{/if}} {{#if _video.src}}
                         <div class="dialogue-item-video">
-                        <video preload="none" {{#if _video.controls}} controls {{/if}} {{#if _video.autoplay}} autoplay {{/if}} {{#if _video.loop}} loop {{/if}} src="{{{_video.src}}}" alt="{{{_video.alt}}}">
+                            <video {{#if _video.controls}} controls {{/if}} {{#if _video.autoplay}} autoplay {{/if}} {{#if _video.loop}} loop {{/if}} src="{{{_video.src}}}" alt="{{{_video.alt}}}">
                         </div>
                         {{/if}}
-                         <div class="dialogue-content-title-inner" role="heading">
+                      {{#if header_text}}   <div class="dialogue-content-title-inner" role="heading">
                     {{{header_text}}}
                 </div>
+                       {{/if}}
                         {{#if body}}
                         {{{body}}}
                         {{/if}}
