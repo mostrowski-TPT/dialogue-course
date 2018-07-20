@@ -150,7 +150,7 @@
             "_isEnabled": true
         }
 	},
-    
+
     {
         "_id": "hiddencomponent",
         "_parentId": "hiddenblock",
@@ -173,12 +173,17 @@
                     "alt": ""
                 },
                 "options": [{
-                    "option_text": "What does this course serve for?",
-                    "option_link": "reason"
+                        "option_text": "What does this course serve for?",
+                        "option_link": "reason"
 }, {
-                    "option_text": "How was it made?",
-                    "option_link": "How"
-}]
+                        "option_text": "How was it made?",
+                        "option_link": "How"
+},
+                    {
+                        "option_text": "How these functionalities can expand this tool?",
+                        "option_link": "usage"
+}
+                           ]
         },
             {
                 "id": "reason",
@@ -203,17 +208,14 @@
                 },
                 "options": [
                     {
-                    "option_text": "What does this course serve for?",
-                    "option_link": "reason"
+                        "option_text": "What does this course serve for?",
+                        "option_link": "reason"
 },
                     {
                         "option_text": "How these functionalities can expand this tool?",
                         "option_link": "usage"
-},
-                    {
-                        "option_text": "How was it made?",
-                        "option_link": "How"
-}]
+}
+                    ]
         },
             {
                 "id": "usage",
@@ -228,7 +230,7 @@
                     "option_link": "reason"
 }, {
                     "option_text": "How was it made?",
-                        "option_link": "How"
+                    "option_link": "How"
 }]
         }
 
